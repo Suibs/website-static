@@ -6,17 +6,64 @@ import featureImage from "../../static/images/hero.gif";
 import thumbnailEvent from "../../static/images/feature-event.png"
 import thumbnailBoard from "../../static/images/feature-board.png"
 import thumbnailNews from "../../static/images/feature-news.png"
-import thumbnailTeams from "../../static/images/feature-team.png"
-import thumbnailStaff from "../../static/images/feature-user.png"
+import addImage from "../../static/images/add.svg";
+import eventImage from "../../static/images/Event-managment.svg";
+import serverImage from "../../static/images/server.svg";
+import inlineImage from "../../static/images/inline.svg";
+
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Make your Staff and Workspace Happy"/>
+        <SEO title="Make your Staff and Workspace Happy" />
 
         <div className={"page-header home"}>
-            <h1>Tree Style Tab For Google Chrome is Here!</h1>
-            <p>HiStaff gives your complex the opportunity to increase the percentage of happiness<br/>and enjoyment of your staff and as a result, bring productivity to your workspace.</p>
-            <img alt={"Dashboard"} src={featureImage} style={{borderRadius: "10px"}}/>
+            <div className={"container"}>
+                <div className="row">
+                    <div className="col-4">
+                        <h1>Manage & Organise Your Tab</h1>
+                        <p>The wait is finally over. TST is now on Chrome! </p>
+
+                    </div>
+                    <div className="col-8">
+                        <img alt={"Dashboard"} src={featureImage} />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className={"container"}>
+            <div className={"targets"}>
+                <div className={"title"}>
+                    <h2>Features</h2>
+                </div>
+
+                <div className={"row"}>
+                    <div className={"col-4"}>
+                        <div className={"item"}>
+                            <img alt={"Information"} src={addImage} />
+                            <h3>Tab managment</h3>
+                            <p>Add and delete tabs on the fly.</p>
+                        </div>
+                    </div>
+
+                    <div className={"col-4"}>
+                        <div className={"item"}>
+                            <img alt={"Event"} src={serverImage} />
+                            <h3>Realtime update</h3>
+                            <p>Tab updates tracked using Chrome API.</p>
+                        </div>
+                    </div>
+
+                    <div className={"col-4"}>
+                        <div className={"item"}>
+                            <img alt={"Event"} src={inlineImage} />
+                            <h3>Inline menu</h3>
+                            <p>Hover on the side or use your chosen hotkeys.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div className={"container"}>
@@ -25,7 +72,7 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Event"} src={thumbnailEvent}/>
+                                <img alt={"Event"} src={thumbnailEvent} />
                             </div>
                         </div>
 
@@ -43,36 +90,17 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>Public Board</h2>
-                                <p>Let the staff write down on the board freely,<br/>Joking with each other and writing cool content can make the workplace more diverse and attractive for employees. </p>
+                                <p>Let the staff write down on the board freely,<br />Joking with each other and writing cool content can make the workplace more diverse and attractive for employees. </p>
                             </div>
                         </div>
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Board"} src={thumbnailBoard}/>
+                                <img alt={"Board"} src={thumbnailBoard} />
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div className={"feature__item"}>
-                    <div className={"row"}>
-                        <div className={"col-6 first"}>
-                            <div className={"thumbnail"}>
-                                <img alt={"News"} src={thumbnailNews}/>
-                            </div>
-                        </div>
-
-                        <div className={"col-6"}>
-                            <div className={"feature__content"}>
-                                <h2>Internal News</h2>
-                                <p>Get rid of sending news by e-mail and its problems; post the news in an internal and attractive format via HiStaff instead.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
         </div>
 

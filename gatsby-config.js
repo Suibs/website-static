@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
-        title: `HiStaff`,
-        description: `Make your Staff and Workspace Happy`,
-        author: `@mostafasoufi`,
+        title: `Tree Style Tab`,
+        description: `Tabs are shown like a tree, which allows for quick, easy and straightforward tab management`,
+        author: `@suibinhong`,
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
