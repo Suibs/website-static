@@ -19,12 +19,12 @@ const IndexPage = () => (
         <div className={"page-header home"}>
             <div className={"container"}>
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-5">
                         <h1>Manage & Organise Your Tab</h1>
                         <p>The wait is finally over. TST is now on Chrome! </p>
 
                     </div>
-                    <div className="col-8">
+                    <div className="col-7">
                         <img alt={"Dashboard"} src={featureImage} />
 
                     </div>
