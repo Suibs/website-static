@@ -33,7 +33,7 @@ const Layout = ({children}) => (
             <footer>
                 <div className={"container"}>
                     <div className={"row"}>
-                        <div className={"col-5"}>
+                        <div className={"col-6"}>
                             <div className={"widget__item"}>
                                 <div className={"logo"}>
                                     <Link to="/" title={"HiStaff"}>
@@ -44,20 +44,6 @@ const Layout = ({children}) => (
                                 <div className={"about"}>
                                     <p>A software that was created with the goal of solving the problems of Human Resources in small and medium-sized businesses.</p>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div className={"col-2"}>
-                            <div className={"widget__item"}>
-                                <ul className={"links"}>
-                                    <h4>HiStaff</h4>
-                                    <ul>
-                                        <li><Link to="/integrations/slack" title={"Integrations"}>Integrations</Link></li>
-                                        <li><Link to="/about" title={"About Us"}>About</Link></li>
-                                        <li><a href={"https://histaff.io/blog"}>Blog</a></li>
-                                        <li><a className={"links__special"} href={"https://feedback.histaff.io/"} target={"_blank"} title={"We look forward to receiving your great feedback"}>Feedback</a></li>
-                                    </ul>
-                                </ul>
                             </div>
                         </div>
 
@@ -74,7 +60,7 @@ const Layout = ({children}) => (
                             </div>
                         </div>
 
-                        <div className={"col-3"}>
+                        <div className={"col-4"}>
                             <div className={"widget__item"}>
                                 <div className={"social"}>
                                     <a href="https://twitter.com/histaffio" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>

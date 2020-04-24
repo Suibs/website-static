@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import featureImage from "../../static/images/hero.png";
+import featureImage from "../../static/images/hero.gif";
 import thumbnailEvent from "../../static/images/feature-event.png"
 import thumbnailBoard from "../../static/images/feature-board.png"
 import thumbnailNews from "../../static/images/feature-news.png"
@@ -14,9 +14,9 @@ const IndexPage = () => (
         <SEO title="Make your Staff and Workspace Happy"/>
 
         <div className={"page-header home"}>
-            <h1>Make your Staff and Workspace Happy</h1>
+            <h1>Tree Style Tab For Google Chrome is Here!</h1>
             <p>HiStaff gives your complex the opportunity to increase the percentage of happiness<br/>and enjoyment of your staff and as a result, bring productivity to your workspace.</p>
-            <img alt={"Dashboard"} src={featureImage}/>
+            <img alt={"Dashboard"} src={featureImage} style={{borderRadius: "10px"}}/>
         </div>
 
         <div className={"container"}>
@@ -72,39 +72,7 @@ const IndexPage = () => (
                     </div>
                 </div>
 
-                <div className={"feature__item"}>
-                    <div className={"row"}>
-                        <div className={"col-6"}>
-                            <div className={"feature__content"}>
-                                <h2>Teams</h2>
-                                <p>HiStaff let you add staff in specific teams and manage them easily.</p>
-                            </div>
-                        </div>
 
-                        <div className={"col-6 first"}>
-                            <div className={"thumbnail"}>
-                                <img alt={"Team"} src={thumbnailTeams}/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className={"feature__item"}>
-                    <div className={"row"}>
-                        <div className={"col-6 first"}>
-                            <div className={"thumbnail"}>
-                                <img alt={"Users"} src={thumbnailStaff}/>
-                            </div>
-                        </div>
-
-                        <div className={"col-6"}>
-                            <div className={"feature__content"}>
-                                <h2>Staff management</h2>
-                                <p>Discard traditional ways to archive staff documents and information, and try new ways to store and archive them in HiStaff easily.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
