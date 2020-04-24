@@ -5,22 +5,26 @@ import SEO from "../components/seo"
 
 const ContactPage = () => (
     <Layout>
-        <SEO title="Contact"/>
+        <SEO title="Contact" />
         <div className={"container"}>
             <div className={"content"}>
-                <div className={"title"}>
-                    <h1>Contact</h1>
+                <div className={"row"}>
+                    <div className={"col-12"}>
+                        <div className={"title"}>
+                            <h1>Contact</h1>
+                        </div>
+                    </div>
                 </div>
 
                 <div className={"row"}>
                     <div className={"col-7"}>
-                        <p>We take our commitment to our users seriously. If you need our help with your user account, have questions about how to use the HiStaff, any feedback or are experiencing technical difficulties, please do not hesitate to contact us.</p>
+                        <p>We take our commitment to our users seriously. If you need our help with your user account, have questions about how to use the Tree Style Tab, any feedback or are experiencing technical difficulties, please do not hesitate to contact us.</p>
                     </div>
 
                     <div className={"col-5"}>
                         <div className={"contact-items"}>
                             <p>Plain email is the best way to contact us.</p>
-                            <h2>contact@histaff.io</h2>
+                            <h2>info@treestyletab.com</h2>
                         </div>
                     </div>
                 </div>

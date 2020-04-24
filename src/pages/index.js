@@ -14,14 +14,14 @@ import inlineImage from "../../static/images/inline.svg";
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Make your Staff and Workspace Happy" />
+        <SEO title="Manage & Organise Your Tab" />
 
         <div className={"page-header home"}>
             <div className={"container"}>
                 <div className="row">
                     <div className="col-5">
                         <h1>Manage & Organise Your Tab</h1>
-                        <p>The wait is finally over. TST is now on Chrome! </p>
+                        <p>The wait is finally over. TST is now on Google Chrome! </p>
 
                     </div>
                     <div className="col-7">
@@ -78,8 +78,8 @@ const IndexPage = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Create and Join Events</h2>
-                                <p>Save your time and energy by letting HiStaff to manage your events (handle the colleague’s birthday, gathering, etc.)</p>
+                                <h2>Structure your tab in a tree-like hierarchy</h2>
+                                <p>Increase your productivity. Group the most important tabs together and access them quickly.</p>
                             </div>
                         </div>
                     </div>
@@ -89,8 +89,8 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Public Board</h2>
-                                <p>Let the staff write down on the board freely,<br />Joking with each other and writing cool content can make the workplace more diverse and attractive for employees. </p>
+                                <h2>Night Mode</h2>
+                                <p>Themes to keep your experience refreshing,<br />whether you're working in the day or at night, we've got you covered! </p>
                             </div>
                         </div>
 
@@ -107,12 +107,12 @@ const IndexPage = () => (
         <div className={"call-to-action"}>
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
-                    <h2>Sign up for free</h2>
-                    <p>Sign up and start increasing the productivity of your business with HiStaff.</p>
+                    <h2>Check it out!</h2>
+                    <p>We're now on the Google Chrome AppStore.</p>
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://app.histaff.io" target={"_blank"}>Get Started</a>
+                    <a href="/" target={"_blank"}>Get Started</a>
                 </div>
             </div>
         </div>

@@ -21,10 +21,10 @@ module.exports = {
                 name: `gatsby-starter-default`,
                 short_name: `starter`,
                 start_url: `/`,
-                background_color: `#663399`,
-                theme_color: `#FF54AC`,
+                background_color: `white`,
+                theme_color: `black`,
                 display: `minimal-ui`,
-                icon: `${__dirname}/static/images/histaff.png`, // This path is relative to the root of the site.
+                icon: `${__dirname}/static/images/tst.png`, // This path is relative to the root of the site.
             },
         },
         `gatsby-plugin-sass`,
