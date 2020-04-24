@@ -276,6 +276,9 @@ body {
 
   .targets {
     margin: 10vh 0 0;
+    @media screen and (max-width: $break-small) {
+      text-align: center;
+    }
 
     .title {
       text-align: center;
