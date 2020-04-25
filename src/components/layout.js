@@ -13,7 +13,6 @@ import Header from "./header"
 import "../../static/styles/main.scss"
 import logo from "../../static/images/logo.svg"
 import iconTwitter from "../../static/images/icon-twitter.svg"
-import iconGitHub from "../../static/images/icon-github.svg"
 
 const Layout = ({children}) => (
     <StaticQuery query={graphql`
@@ -61,8 +60,7 @@ const Layout = ({children}) => (
                         <div className={"col-4"}>
                             <div className={"widget__item"}>
                                 <div className={"social"}>
-                                    <a href="https://twitter.com/" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
-                                    <a href="https://github.com/" target={"_blank"} title={"GitHub"}><img alt={"GitHub"} src={iconGitHub}/></a>
+                                    <a href="https://twitter.com/treestyletab" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
                                 </div>
                             </div>
                         </div>
