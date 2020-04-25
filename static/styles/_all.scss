@@ -54,13 +54,13 @@ body {
           display: block;
           background: black;
           border-radius: 4px;
+          border: 1px solid black;
           text-align: center;
           color: #ffffff;
           &:hover,
           &:active {
             color: black;
             background: white;
-            border: 1px solid black;
             transform: translate3d(0px, -1px, 0px);
           }
         }
