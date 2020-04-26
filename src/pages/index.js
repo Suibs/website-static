@@ -50,7 +50,7 @@ const IndexPage = () => (
                     <div className={"col-4"}>
                         <div className={"item"}>
                             <img alt={"Event"} src={serverImage} />
-                            <h3>Realtime update</h3>
+                            <h3>Real-time update</h3>
                             <p>Tab updates tracked using Chrome API.</p>
                         </div>
                     </div>
