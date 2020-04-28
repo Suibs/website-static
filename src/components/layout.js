@@ -13,6 +13,7 @@ import Header from "./header"
 import "../../static/styles/main.scss"
 import logo from "../../static/images/logo.svg"
 import iconTwitter from "../../static/images/icon-twitter.svg"
+import iconYoutube from "../../static/images/icon-youtube.svg"
 
 const Layout = ({ children }) => (
     <StaticQuery query={graphql`
@@ -61,6 +62,7 @@ const Layout = ({ children }) => (
                                 <div className={"widget__item"}>
                                     <div className={"social"}>
                                         <a href="https://twitter.com/treestyletab" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter} /></a>
+                                        <a href="https://www.youtube.com/channel/UCncC2IuvgAsYZD3e7hX0irQ" target={"_blank"} title={"Youtube"}><img alt={"Youtube"} src={iconYoutube} /></a>
                                     </div>
                                 </div>
                             </div>
