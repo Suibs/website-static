@@ -5,11 +5,10 @@ import SEO from "../components/seo"
 import featureImage from "../../static/images/hero.gif";
 import thumbnailEvent from "../../static/images/feature-event.png"
 import thumbnailBoard from "../../static/images/feature-board.png"
-import thumbnailNews from "../../static/images/feature-news.png"
 import addImage from "../../static/images/add.svg";
-import eventImage from "../../static/images/Event-managment.svg";
 import serverImage from "../../static/images/server.svg";
 import inlineImage from "../../static/images/inline.svg";
+import chromeImage from "../../static/images/chrome.svg";
 
 
 const IndexPage = () => (
@@ -22,6 +21,11 @@ const IndexPage = () => (
                     <div className="col-5">
                         <h1>Manage & Organise Your Tab</h1>
                         <p>The wait is finally over. TST is now on Google Chrome! </p>
+                        <div className={"add-to-chrome"}>
+                            <a href="https://chrome.google.com/webstore/detail/tree-style-tab-for-chrome/hbledhepdppepjnbnohiepcpcnphimdj" target={"_blank"}>
+                                <img src={chromeImage} /> Add to Chrome
+                            </a>
+                        </div>
 
                     </div>
                     <div className="col-7">
@@ -112,7 +116,7 @@ const IndexPage = () => (
                 </div>
 
                 <div className={"button"}>
-                    <a href="/" target={"_blank"}>Get Started</a>
+                    <a href="https://chrome.google.com/webstore/detail/tree-style-tab-for-chrome/hbledhepdppepjnbnohiepcpcnphimdj" target={"_blank"}>Get Started</a>
                 </div>
             </div>
         </div>

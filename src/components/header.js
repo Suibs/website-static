@@ -14,7 +14,7 @@ const Header = ({siteTitle}) => (
                 </div>
 
                 <div className={"get-started"}>
-                    <a href="/" target={"_blank"}>Get Started</a>
+                    <a href="https://chrome.google.com/webstore/detail/tree-style-tab-for-chrome/hbledhepdppepjnbnohiepcpcnphimdj" target={"_blank"}>Get Started</a>
                 </div>
             </div>
         </div>
