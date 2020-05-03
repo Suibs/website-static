@@ -20,7 +20,7 @@ const IndexPage = () => (
                 <div className="row">
                     <div className="col-5">
                         <h1>Manage & Organise Your Tab</h1>
-                        <p>The wait is finally over. TST is now on Google Chrome! </p>
+                        <p>Say goodbye to messy tabs - Start browsing the internet the way you want and know where all your tabs are with ease. </p>
                         <div className={"add-to-chrome"}>
                             <a href="https://chrome.google.com/webstore/detail/tree-style-tab-for-chrome/hbledhepdppepjnbnohiepcpcnphimdj" target={"_blank"}>
                                 <img src={chromeImage} /> Add to Chrome
@@ -35,40 +35,40 @@ const IndexPage = () => (
                 </div>
             </div>
         </div>
+        <div className={"features"}>
+            <div className={"container"}>
+                <div className={"targets"}>
 
-        <div className={"container"}>
-            <div className={"targets"}>
-                <div className={"title"}>
-                    <h2>Features</h2>
-                </div>
-
-                <div className={"row"}>
-                    <div className={"col-4"}>
-                        <div className={"item"}>
-                            <img alt={"Information"} src={addImage} />
-                            <h3>Tab managment</h3>
-                            <p>Add and delete tabs on the fly.</p>
+                    <div className={"row"}>
+                        <div className={"col-4"}>
+                            <div className={"item"}>
+                                <img alt={"Information"} src={addImage} />
+                                <h3>Tab managment</h3>
+                                <p>Add and delete tabs on the fly.</p>
+                            </div>
                         </div>
-                    </div>
 
-                    <div className={"col-4"}>
-                        <div className={"item"}>
-                            <img alt={"Event"} src={serverImage} />
-                            <h3>Real-time update</h3>
-                            <p>Tab updates tracked using Chrome API.</p>
+                        <div className={"col-4"}>
+                            <div className={"item"}>
+                                <img alt={"Event"} src={serverImage} />
+                                <h3>Real-time update</h3>
+                                <p>Tab updates tracked using Chrome API.</p>
+                            </div>
                         </div>
-                    </div>
 
-                    <div className={"col-4"}>
-                        <div className={"item"}>
-                            <img alt={"Event"} src={inlineImage} />
-                            <h3>Inline menu</h3>
-                            <p>Hover on the side or use your chosen hotkeys.</p>
+                        <div className={"col-4"}>
+                            <div className={"item"}>
+                                <img alt={"Event"} src={inlineImage} />
+                                <h3>Inline menu</h3>
+                                <p>Hover on the side or use your chosen hotkeys.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
+
 
         <div className={"container"}>
             <div className={"features"}>
@@ -112,7 +112,7 @@ const IndexPage = () => (
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
                     <h2>Check it out!</h2>
-                    <p>We're now on the Google Chrome AppStore.</p>
+                    <p>We're now on the Google Chrome Extension Store.</p>
                 </div>
 
                 <div className={"button"}>
