@@ -2,7 +2,6 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import featureImage from "../../static/images/hero.gif";
 import thumbnailEvent from "../../static/images/feature-event.png"
 import thumbnailBoard from "../../static/images/feature-board.png"
 import addImage from "../../static/images/add.svg";
@@ -12,6 +11,8 @@ import chromeImage from "../../static/images/chrome.svg";
 import featureVideo from "../../static/images/hero.mp4";
 import DDVideo from "../../static/images/dd.mp4";
 import colourImage from "../../static/images/colour.svg";
+import featureImage from "../../static/images/videoBackup.png";
+import DDVideoBackup from "../../static/images/DDBackup.png";
 const IndexPage = () => (
     <Layout>
         <SEO title="Manage & Organise Your Tab" />
@@ -31,7 +32,7 @@ const IndexPage = () => (
                     </div>
                     <div className="col-7">
 
-                        <video preload='auto' autoPlay muted loop src={featureVideo}>
+                        <video preload='auto' autoPlay muted loop src={featureVideo} poster={featureImage}>
                             <source src={featureVideo} type="video/mp4" />
                         </video>
 
@@ -93,7 +94,7 @@ const IndexPage = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload='auto' autoPlay muted loop src={DDVideo}>
+                                <video preload='auto' autoPlay muted loop src={DDVideo} poster={DDVideoBackup}>
                                     <source src={DDVideo} type="video/mp4" />
                                 </video>
                             </div>
