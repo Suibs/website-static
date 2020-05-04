@@ -1,5 +1,6 @@
 $break-small: 719px;
-$break-medium: 1500px;
+$break-large: 1500px;
+$break-medium: 950px;
 
 body {
   font-family: Inter;
@@ -101,7 +102,7 @@ body {
       padding: 0 0 15px 0;
       color: grey;
     }
-
+    video,
     img {
       max-width: 100%;
       border-radius: 10px;
@@ -145,7 +146,7 @@ body {
     .page-header-gif {
       width: 90%;
     }
-    @media screen and (max-width: $break-medium) {
+    @media screen and (max-width: $break-large) {
       .add-to-chrome {
         a {
           padding: 10px 0;
@@ -155,7 +156,6 @@ body {
       .col-5,
       .col-7 {
         width: 100%;
-
       }
     }
 
@@ -171,7 +171,6 @@ body {
       img {
         max-width: 100%;
       }
-
     }
   }
 
@@ -180,6 +179,10 @@ body {
     border-bottom: 1px solid #eaeaea;
     .feature__item {
       padding: 50px 0;
+
+      video {
+        width: 100%;
+      }
 
       .row {
         display: flex;
@@ -210,8 +213,9 @@ body {
       }
 
       .thumbnail {
+        text-align: center;
         img {
-          max-width: 100%;
+          max-width: 65%;
         }
       }
     }
@@ -232,15 +236,18 @@ body {
       }
 
       h2 {
+        text-align: center;
         margin-top: 10px;
+      }
+      p {
+        text-align: center;
       }
     }
   }
 
   .call-to-action {
-    background-color: black;
     color: #ffffff;
-    padding: 80px 0;
+    background: black;
 
     .container {
       display: flex;
@@ -292,6 +299,11 @@ body {
         }
       }
     }
+    .call-to-action_inner {
+      padding: 100px 0;
+      border-radius: 10px;
+      background: black;
+    }
 
     .call-to-action__content {
       h2 {
@@ -323,13 +335,8 @@ body {
   }
 
   .targets {
-    @media screen and (max-wdith: $break-medium) {
-      img {
-        width: 80px;
-        height: 80px;
-      }
-    }
-    @media screen and (max-width: $break-small) {
+
+    @media screen and (max-width: $break-medium) {
       text-align: center;
       .item {
         margin: 24px 0;
@@ -344,7 +351,7 @@ body {
     }
 
     .item {
-
+      text-align: center;
       h3 {
         font-size: 18px;
         margin: 5px 0 0;
@@ -358,8 +365,7 @@ body {
       }
 
       img {
-        width: 200px;
-        height: 200px;
+        width: 50%;
       }
     }
   }
