@@ -3,7 +3,6 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import thumbnailEvent from "../../static/images/feature-event.png"
-import thumbnailBoard from "../../static/images/feature-board.png"
 import addImage from "../../static/images/add.svg";
 import serverImage from "../../static/images/server.svg";
 import inlineImage from "../../static/images/inline.svg";
@@ -12,8 +11,8 @@ import featureVideo from "../../static/images/hero.mp4";
 import DDVideo from "../../static/images/dd.mp4";
 import colourImage from "../../static/images/colour.svg";
 import featureImage from "../../static/images/videoBackup.png";
-import featureGif from "../../static/images/hero.gif";
 import DDVideoBackup from "../../static/images/DDBackup.png";
+import ddPicture from "../../static/images/ddPicture.png";
 const IndexPage = () => (
     <Layout>
         <SEO title="Manage & Organise Your Tab" />
@@ -95,9 +94,10 @@ const IndexPage = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload='auto' autoPlay muted loop src={DDVideo} poster={DDVideoBackup}>
+                                <video preload='auto' autoPlay muted loop src={DDVideo} poster={DDVideoBackup} className={"hidden-sm"}>
                                     <source src={DDVideo} type="video/mp4" />
                                 </video>
+                                <img alt={"Drag and Drop"} src={ddPicture} className={"display-sm border-sm"} />
                             </div>
                         </div>
                     </div>
@@ -106,7 +106,7 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Event"} src={thumbnailEvent} />
+                                <img alt={"Event"} src={thumbnailEvent} className={"border-sm"} />
                             </div>
                         </div>
 

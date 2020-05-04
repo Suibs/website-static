@@ -147,10 +147,14 @@ body {
       width: 90%;
     }
     @media screen and (max-width: $break-large) {
+      h1,
+      p {
+        text-align: center;
+      }
       .add-to-chrome {
         a {
           padding: 10px 0;
-          width: 100%;
+          display: none;
         }
       }
       .col-5,
@@ -166,6 +170,12 @@ body {
       h1,
       h2 {
         padding-top: 0;
+      }
+      .add-to-chrome {
+        a {
+          width: 100%;
+          display: block;
+        }
       }
 
       img {

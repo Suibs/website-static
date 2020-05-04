@@ -1,7 +1,7 @@
 /* ==== GRID SYSTEM ==== */
 
 .container {
-  width: 90%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -90,6 +90,10 @@
   display: none;
 }
 
+.border-sm {
+  border-radius: 10px;
+}
+
 @media only screen and (min-width: 33.75em) {  /* 540px */
   .container {
     width: 80%;
@@ -147,6 +151,12 @@
 
   .hidden-sm {
     display: block;
+  }
+  .display-sm {
+    display: none;
+  }
+  .border-sm {
+    border-radius: 0;
   }
 }
 
