@@ -12,6 +12,7 @@ import featureVideo from "../../static/images/hero.mp4";
 import DDVideo from "../../static/images/dd.mp4";
 import colourImage from "../../static/images/colour.svg";
 import featureImage from "../../static/images/videoBackup.png";
+import featureGif from "../../static/images/hero.gif";
 import DDVideoBackup from "../../static/images/DDBackup.png";
 const IndexPage = () => (
     <Layout>
@@ -34,6 +35,7 @@ const IndexPage = () => (
 
                         <video preload='auto' autoPlay muted loop src={featureVideo} poster={featureImage}>
                             <source src={featureVideo} type="video/mp4" />
+                            <img src={featureGif} />
                         </video>
 
                     </div>
