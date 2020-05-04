@@ -33,9 +33,8 @@ const IndexPage = () => (
                     </div>
                     <div className="col-7">
 
-                        <video preload='auto' autoPlay muted loop src={featureVideo} poster={featureImage}>
+                        <video className={"hidden-sm"} preload='auto' autoPlay muted loop src={featureVideo} poster={featureImage}>
                             <source src={featureVideo} type="video/mp4" />
-                            <img src={featureGif} />
                         </video>
 
                     </div>
