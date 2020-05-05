@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import thumbnailEvent from "../../static/images/feature-event.png"
+import thumbnailEvent from "../../static/images/feature-event.jpg"
 import addImage from "../../static/images/add.svg";
 import serverImage from "../../static/images/server.svg";
 import inlineImage from "../../static/images/inline.svg";
@@ -10,9 +10,9 @@ import chromeImage from "../../static/images/chrome.svg";
 import featureVideo from "../../static/images/hero.mp4";
 import DDVideo from "../../static/images/dd.mp4";
 import colourImage from "../../static/images/colour.svg";
-import featureImage from "../../static/images/videoBackup.png";
-import DDVideoBackup from "../../static/images/DDBackup.png";
-import ddPicture from "../../static/images/ddPicture.png";
+import featureImage from "../../static/images/videoBackup.jpg";
+import DDVideoBackup from "../../static/images/DDBackup.jpg";
+import ddPicture from "../../static/images/ddPicture.jpg";
 const IndexPage = () => (
     <Layout>
         <SEO title="Manage & Organise Your Tab" />
