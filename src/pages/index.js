@@ -11,7 +11,6 @@ import featureVideo from "../../static/images/hero.mp4";
 import DDVideo from "../../static/images/dd.mp4";
 import colourImage from "../../static/images/colour.svg";
 import featureImage from "../../static/images/videoBackup.jpg";
-import DDVideoBackup from "../../static/images/DDBackup.jpg";
 import ddPicture from "../../static/images/ddPicture.jpg";
 const IndexPage = () => (
     <Layout>
@@ -32,7 +31,7 @@ const IndexPage = () => (
                     </div>
                     <div className="col-7">
 
-                        <video className={"hidden-sm"} preload='auto' autoPlay muted loop src={featureVideo} poster={featureImage}>
+                        <video className={"hidden-sm"} preload='none' autoPlay muted loop src={featureVideo} poster={featureImage}>
                             <source src={featureVideo} type="video/mp4" />
                         </video>
 
@@ -94,7 +93,7 @@ const IndexPage = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload='auto' autoPlay muted loop src={DDVideo} poster={DDVideoBackup} className={"hidden-sm"}>
+                                <video preload='none' autoPlay muted loop src={DDVideo} poster={ddPicture} className={"hidden-sm"}>
                                     <source src={DDVideo} type="video/mp4" />
                                 </video>
                                 <img alt={"Drag and Drop"} src={ddPicture} className={"display-sm border-sm"} />
