@@ -125,7 +125,7 @@ const IndexPage = () => (
             <div className={"container call-to-action_inner"}>
                 <div className={"call-to-action__content"}>
                     <h2>Check it out!</h2>
-                    <p>We're now on the Google Chrome Extension Store.</p>
+                    <p>We're now on the Google Chrome extension store.</p>
                 </div>
 
                 <div className={"button"}>
