@@ -31,7 +31,7 @@ const IndexPage = () => (
                     </div>
                     <div className="col-7">
 
-                        <video className={"hidden-sm"} preload='none' autoPlay muted loop src={featureVideo} poster={featureImage}>
+                        <video className={"hidden-sm"} preload='auto' autoPlay muted loop src={featureVideo} poster={featureImage}>
                             <source src={featureVideo} type="video/mp4" />
                         </video>
 
@@ -93,7 +93,7 @@ const IndexPage = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload='none' autoPlay muted loop src={DDVideo} poster={ddPicture} className={"hidden-sm"}>
+                                <video preload='auto' autoPlay muted loop src={DDVideo} poster={ddPicture} className={"hidden-sm"}>
                                     <source src={DDVideo} type="video/mp4" />
                                 </video>
                                 <img alt={"Drag and Drop"} src={ddPicture} className={"display-sm border-sm"} />
