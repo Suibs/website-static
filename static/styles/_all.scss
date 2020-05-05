@@ -67,6 +67,14 @@ body {
           }
         }
       }
+      @media screen and (max-width: $break-small) {
+        .logo {
+          img {
+            width: 100px;
+            height: 44px;
+          }
+        }
+      }
     }
   }
 
@@ -109,7 +117,6 @@ body {
     }
 
     &.home {
-
     }
 
     .add-to-chrome {
@@ -164,7 +171,6 @@ body {
     }
 
     @media screen and (max-width: $break-small) {
-
       h1,
       h2 {
         padding-top: 0;
@@ -221,7 +227,6 @@ body {
       }
 
       .thumbnail {
-        text-align: center;
         img {
           max-width: 65%;
         }
@@ -250,8 +255,14 @@ body {
       p {
         text-align: center;
       }
-      img {
-        max-width: 100%;
+
+      .feature__item {
+        .thumbnail {
+          text-align: center;
+          img {
+            max-width: 100%;
+          }
+        }
       }
     }
   }
@@ -346,7 +357,6 @@ body {
   }
 
   .targets {
-
     @media screen and (max-width: $break-medium) {
       text-align: center;
       .item {

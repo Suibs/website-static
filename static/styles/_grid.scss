@@ -94,6 +94,10 @@
   border-radius: 10px;
 }
 
+.col-item {
+  width: 45%;
+}
+
 @media only screen and (min-width: 33.75em) {  /* 540px */
   .container {
     width: 80%;
@@ -158,9 +162,19 @@
   .border-sm {
     border-radius: 0;
   }
+  .col-item {
+    width: 20%;
+  }
+  .special-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+  }
+
 }
 
 @media only screen and (min-width: 60em) { /* 960px */
+  .special-container,
   .container {
     width: 75%;
     max-width: 80rem;
