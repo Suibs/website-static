@@ -63,9 +63,9 @@ const Layout = ({ children }) => (
                             <div className={"col-4"}>
                                 <div className={"widget__item"}>
                                     <div className={"social"}>
-                                        <a href="https://twitter.com/treestyletab" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter} /></a>
-                                        <a href="https://www.youtube.com/channel/UCncC2IuvgAsYZD3e7hX0irQ" target={"_blank"} title={"Youtube"}><img alt={"Youtube"} src={iconYoutube} /></a>
-                                        <a href="https://github.com/Suibs/Tree-Style-Tab-For-Chrome" target={"_blank"} title={"Github"}><img alt={"Github"} src={iconGithub} /></a>
+                                        <a href="https://twitter.com/treestyletab" target={"_blank"} rel="noopener noreferrer" title={"Twitter"}><img alt={"Twitter"} src={iconTwitter} /></a>
+                                        <a href="https://www.youtube.com/channel/UCncC2IuvgAsYZD3e7hX0irQ" target={"_blank"}  rel="noopener noreferrer"title={"Youtube"}><img alt={"Youtube"} src={iconYoutube} /></a>
+                                        <a href="https://github.com/Suibs/Tree-Style-Tab-For-Chrome" target={"_blank"}  rel="noopener noreferrer" title={"Github"}><img alt={"Github"} src={iconGithub} /></a>
 
                                     </div>
                                 </div>

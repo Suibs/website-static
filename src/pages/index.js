@@ -24,8 +24,8 @@ const IndexPage = () => (
                         <h1>Manage & Organise Your Tab</h1>
                         <p>Say goodbye to messy tabs - Start browsing the internet the way you want and know where all your tabs are with ease. </p>
                         <div className={"add-to-chrome"}>
-                            <a href="https://chrome.google.com/webstore/detail/tree-style-tab-for-chrome/hbledhepdppepjnbnohiepcpcnphimdj" target={"_blank"}>
-                                <img src={chromeImage} /> Add to Chrome
+                            <a href="https://chrome.google.com/webstore/detail/tree-style-tab-for-chrome/hbledhepdppepjnbnohiepcpcnphimdj" target={"_blank"} rel="noopener noreferrer">
+                                <img src={chromeImage} alt="Add to Chrome" /> Add to Chrome
                             </a>
                         </div>
 
@@ -129,7 +129,7 @@ const IndexPage = () => (
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://chrome.google.com/webstore/detail/tree-style-tab-for-chrome/hbledhepdppepjnbnohiepcpcnphimdj" target={"_blank"}>Get Started</a>
+                    <a href="https://chrome.google.com/webstore/detail/tree-style-tab-for-chrome/hbledhepdppepjnbnohiepcpcnphimdj" target={"_blank"} rel="noopener noreferrer">Get Started</a>
                 </div>
             </div>
 
