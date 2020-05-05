@@ -44,7 +44,7 @@ const IndexPage = () => (
             <div className={"special-container"}>
                 <div className={"targets"}>
                     <div className={"row"}>
-                        <div className={"col-item"}>
+                        <div className={"col-item space"}>
                             <div className={"item"}>
                                 <img alt={"Information"} src={addImage} />
                                 <h3>Tab managment</h3>
@@ -52,7 +52,7 @@ const IndexPage = () => (
                             </div>
                         </div>
 
-                        <div className={"col-item"}>
+                        <div className={"col-item space"}>
                             <div className={"item"}>
                                 <img alt={"Event"} src={serverImage} />
                                 <h3>Real-time update</h3>
@@ -60,14 +60,14 @@ const IndexPage = () => (
                             </div>
                         </div>
 
-                        <div className={"col-item"}>
+                        <div className={"col-item space"}>
                             <div className={"item"}>
                                 <img alt={"Event"} src={inlineImage} />
                                 <h3>Inline menu</h3>
                                 <p>Hover on the side or use your chosen hotkeys.</p>
                             </div>
                         </div>
-                        <div className={"col-item"}>
+                        <div className={"col-item space"}>
                             <div className={"item"}>
                                 <img alt={"Event"} src={colourImage} />
                                 <h3>Themes</h3>
