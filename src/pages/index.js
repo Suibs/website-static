@@ -83,7 +83,7 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>Drag & Drop</h2>
-                                <p>It's simple. Rearrange your tab by dragging and dropping the tab onto another tab, designed and created built on react.</p>
+                                <p>It's simple. Rearrange your tab by dragging and dropping the tab onto another tab. Created using React.</p>
                             </div>
                         </div>
 
