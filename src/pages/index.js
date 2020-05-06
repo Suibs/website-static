@@ -10,6 +10,7 @@ import chromeImage from "../../static/images/chrome.svg";
 import colourImage from "../../static/images/colour.svg";
 import featureImage from "../../static/images/videoBackup.jpg";
 import ddPicture from "../../static/images/ddPicture.jpg";
+import ddBackup from "../../static/images/DDBackup.jpg";
 const IndexPage = () => (
     <Layout>
         <SEO title="Manage & Organise Your Tab" />
@@ -89,7 +90,7 @@ const IndexPage = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dd.mp4"} poster={ddPicture} className={"hidden-sm"} />
+                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dd.mp4"} poster={ddBackup} className={"hidden-sm"} />
                                 <img alt={"Drag and Drop"} src={ddPicture} className={"display-sm border-sm"} />
                             </div>
                         </div>
