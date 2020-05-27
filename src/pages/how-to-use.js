@@ -42,7 +42,7 @@ const HowToUse = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/openMenu.mp4"} poster={"https://cdn.dribbble.com/users/148670/screenshots/5252136/dots.gif?vid=1"} className={""} />
+                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/openMenu.mp4#t=0.1"}  className={""} />
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ const HowToUse = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dragDrop.mp4"} poster={"https://cdn.dribbble.com/users/148670/screenshots/5252136/dots.gif?vid=1"} className={""} />
+                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dragDrop.mp4#t=0.1"}  className={""} />
 
                             </div>
                         </div>
@@ -89,7 +89,7 @@ const HowToUse = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dragPinned.mp4"} poster={"https://cdn.dribbble.com/users/148670/screenshots/5252136/dots.gif?vid=1"} className={""} />
+                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dragPinned.mp4#t=0.1"}  className={""} />
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@ const HowToUse = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/resizeMenu.mp4"}  poster={"https://cdn.dribbble.com/users/148670/screenshots/5252136/dots.gif?vid=1"} className={""} />
+                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/resizeMenu.mp4#t=0.1"}   className={""} />
 
                             </div>
                         </div>
@@ -137,7 +137,7 @@ const HowToUse = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/collapse.mp4"}  poster={"https://cdn.dribbble.com/users/148670/screenshots/5252136/dots.gif?vid=1"} className={""} />
+                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/collapse.mp4#t=0.1"}   className={""} />
                             </div>
                         </div>
                     </div>
@@ -147,7 +147,7 @@ const HowToUse = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/contextMenuNormal.mp4"} poster={"https://cdn.dribbble.com/users/148670/screenshots/5252136/dots.gif?vid=1"}  className={""} />
+                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/contextMenuNormal.mp4#t=0.1"}   className={""} />
 
                             </div>
                         </div>
@@ -185,7 +185,7 @@ const HowToUse = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/contextMenuPin.mp4"} poster={"https://cdn.dribbble.com/users/148670/screenshots/5252136/dots.gif?vid=1"}  className={""} />
+                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/contextMenuPin.mp4#t=0.1"}   className={""} />
                             </div>
                         </div>
                     </div>

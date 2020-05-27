@@ -30,7 +30,7 @@ const IndexPage = () => (
                     </div>
                     <div className="col-7">
 
-                        <video className={"hidden-sm"} autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/hero.mp4"} poster={featureImage} />
+                        <video className={"hidden-sm"} autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/hero.mp4#t=0.1"} />
 
                     </div>
                 </div>
@@ -90,7 +90,7 @@ const IndexPage = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dd.mp4"} poster={ddBackup} className={"hidden-sm"} />
+                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dd.mp4#t=0.1"} className={"hidden-sm"} />
                                 <img alt={"Drag and Drop"} src={ddPicture} className={"display-sm border-sm"} />
                             </div>
                         </div>
