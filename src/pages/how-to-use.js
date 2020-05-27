@@ -60,7 +60,7 @@ const HowToUse = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2 style={{ textAlign: "end" }}>
-                                    Drag & Drop
+                                    Drag & Drop (Normal Tab)
                                     <FontAwesomeIcon
                                         className={"fontIconRight"}
                                         icon={faMousePointer}
