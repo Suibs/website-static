@@ -4,7 +4,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import logo from "../../static/images/logo.svg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlay, faMousePointer, faCompressAlt, faCaretSquareDown, faArrowsAltH,  faCaretSquareUp, faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
+import  dots from "../../static/images/dots.gif";
+import { faPlay, faMousePointer, faCompressAlt, faCaretSquareDown, faArrowsAltH, faCaretSquareUp, faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
 const HowToUse = () => (
     <Layout>
         <SEO title="How to use" />
@@ -42,7 +43,11 @@ const HowToUse = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/openMenu.mp4#t=0.1"}  className={""} />
+                            <img src={dots} />
+                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/openMenu.mp4#t=0.1"} poster={dots} className={""}>
+                                    <video preload="auto" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dots.mp4"} />
+                                </video>
+
                             </div>
                         </div>
                     </div>
@@ -52,7 +57,10 @@ const HowToUse = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dragDrop.mp4#t=0.1"}  className={""} />
+
+                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dragDrop.mp4#t=0.1"} poster={dots} className={""}>
+                                <video preload="auto" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dots.mp4"} />
+                                </video>
 
                             </div>
                         </div>
@@ -89,7 +97,10 @@ const HowToUse = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dragPinned.mp4#t=0.1"}  className={""} />
+                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dragPinned.mp4#t=0.1"} poster={dots} className={""}>
+                                    <video preload="auto" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dots.mp4"} />
+
+                                </video>
                             </div>
                         </div>
                     </div>
@@ -99,7 +110,10 @@ const HowToUse = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/resizeMenu.mp4#t=0.1"}   className={""} />
+                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/resizeMenu.mp4#t=0.1"} poster={dots} className={""}>
+                                    <video preload="auto" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dots.mp4"} />
+
+                                </video>
 
                             </div>
                         </div>
@@ -137,7 +151,10 @@ const HowToUse = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/collapse.mp4#t=0.1"}   className={""} />
+                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/collapse.mp4#t=0.1"} poster={dots} className={""}>
+                                    <video preload="auto" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dots.mp4"} />
+
+                                </video>
                             </div>
                         </div>
                     </div>
@@ -147,7 +164,9 @@ const HowToUse = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/contextMenuNormal.mp4#t=0.1"}   className={""} />
+                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/contextMenuNormal.mp4#t=0.1"} poster={dots} className={""}>
+                                    <video preload="auto" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dots.mp4"} />
+                                </video>
 
                             </div>
                         </div>
@@ -185,7 +204,9 @@ const HowToUse = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/contextMenuPin.mp4#t=0.1"}   className={""} />
+                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/contextMenuPin.mp4#t=0.1"} poster={dots} className={""}>
+                                    <video autoPlay muted src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dots.mp4"} />
+                                </video>
                             </div>
                         </div>
                     </div>

@@ -31,7 +31,7 @@ const IndexPage = () => (
                     <div className="col-7">
 
                         <video preload="metadata" className={"hidden-sm"} autoPlay muted loop>
-                            <source src={"https://treestyletab.s3.eu-west-3.amazonaws.com/main.mp4#t=0.1"} post={featureImage} type="video/mp4" />
+                            <source src={"https://treestyletab.s3.eu-west-3.amazonaws.com/main.mp4#t=0.1"} poster={featureImage} type="video/mp4" />
                         </video>
 
                     </div>
