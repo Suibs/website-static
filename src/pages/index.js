@@ -8,7 +8,7 @@ import serverImage from "../../static/images/server.svg";
 import inlineImage from "../../static/images/inline.svg";
 import chromeImage from "../../static/images/chrome.svg";
 import colourImage from "../../static/images/colour.svg";
-import featureImage from "../../static/images/videoBackup.jpg";
+import featureImage from "../../static/images/mainBackup.jpg";
 import ddPicture from "../../static/images/ddPicture.jpg";
 import ddBackup from "../../static/images/DDBackup.jpg";
 const IndexPage = () => (
@@ -31,7 +31,7 @@ const IndexPage = () => (
                     <div className="col-7">
 
                         <video preload="metadata" className={"hidden-sm"} autoPlay muted loop>
-                            <source src={"https://treestyletab.s3.eu-west-3.amazonaws.com/hero.mp4#t=0.1"} type="video/mp4" />
+                            <source src={"https://treestyletab.s3.eu-west-3.amazonaws.com/main.mp4#t=0.1"} post={featureImage} type="video/mp4" />
                         </video>
 
                     </div>
@@ -92,7 +92,7 @@ const IndexPage = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dd.mp4#t=0.1"} className={"hidden-sm"} />
+                                <video preload='auto' muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dd.mp4#t=0.1"} poster={ddBackup} className={"hidden-sm"} />
                                 <img alt={"Drag and Drop"} src={ddPicture} className={"display-sm border-sm"} />
                             </div>
                         </div>
