@@ -92,7 +92,7 @@ const IndexPage = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload='auto' autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dd.mp4#t=0.1"} className={"hidden-sm"} />
+                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dd.mp4#t=0.1"} className={"hidden-sm"} />
                                 <img alt={"Drag and Drop"} src={ddPicture} className={"display-sm border-sm"} />
                             </div>
                         </div>
