@@ -77,6 +77,23 @@ body {
       }
     }
   }
+  .page-header-how-to {
+    padding: 50px 0;
+    text-align: center;
+    background-color: black;
+
+    h1 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 3rem;
+      color: white;
+      padding: 0 0 15px 0;
+      line-height: 54px;
+    }
+    img {
+      vertical-align: middle;
+    }
+  }
 
   .page-header {
     text-align: center;
@@ -193,6 +210,12 @@ body {
     border-bottom: 1px solid #eaeaea;
     .feature__item {
       padding: 50px 0;
+      .fontIconLeft {
+        padding: 0 20px 0 0;
+      }
+      .fontIconRight {
+        padding: 0 0 0 20px;
+      }
 
       video {
         width: 100%;
