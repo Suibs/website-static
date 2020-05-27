@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import logo from "../../static/images/logo.svg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlay, faMousePointer, faCompressAlt, faCaretSquareDown, faRuler } from '@fortawesome/free-solid-svg-icons';
+import { faPlay, faMousePointer, faCompressAlt, faCaretSquareDown, faArrowsAltH,  faCaretSquareUp, faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
 const HowToUse = () => (
     <Layout>
         <SEO title="How to use" />
@@ -79,7 +79,7 @@ const HowToUse = () => (
                                 <h2>
                                     <FontAwesomeIcon
                                         className={"fontIconLeft"}
-                                        icon={faMousePointer}
+                                        icon={faProjectDiagram}
                                     />
                                     Drag & Drop (Pinned Tab)
                                 </h2>
@@ -110,7 +110,7 @@ const HowToUse = () => (
                                     Resize menu
                                     <FontAwesomeIcon
                                         className={"fontIconRight"}
-                                        icon={faRuler}
+                                        icon={faArrowsAltH}
                                     />
                                 </h2>
                                 <p style={{ textAlign: "right" }}>Hover on the edge of the menu until the resize cursor shows, and then drag left or right until the desired size is reached.</p>
@@ -129,7 +129,7 @@ const HowToUse = () => (
                                         className={"fontIconLeft"}
                                         icon={faCompressAlt}
                                     />
-                                    Collapsable tab
+                                    Collapsable Tab
                                 </h2>
                                 <p>Tabs with children tabs attached can be collapsed or expanded.</p>
                             </div>
@@ -175,7 +175,7 @@ const HowToUse = () => (
                                 <h2>
                                     <FontAwesomeIcon
                                         className={"fontIconLeft"}
-                                        icon={faCaretSquareDown}
+                                        icon={faCaretSquareUp}
                                     />
                                     Context Menu (Pinned tab)
                                 </h2>
