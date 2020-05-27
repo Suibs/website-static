@@ -6,6 +6,9 @@ import logo from "../../static/images/logo.svg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import  dots from "../../static/images/dots.gif";
 import { faPlay, faMousePointer, faCompressAlt, faCaretSquareDown, faArrowsAltH, faCaretSquareUp, faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
+import { config } from "@fortawesome/fontawesome-svg-core"
+import "@fortawesome/fontawesome-svg-core/styles.css"
+config.autoAddCss = false
 const HowToUse = () => (
     <Layout>
         <SEO title="How to use" />
