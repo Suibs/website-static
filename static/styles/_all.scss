@@ -247,18 +247,17 @@ body {
           align-self: center;
         }
       }
+      h2 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #1e1c21;
+      }
 
       .feature__content {
         justify-content: center;
         display: flex;
         flex-direction: column;
-
-        h2 {
-          font-size: 36px;
-          font-weight: bold;
-          margin-bottom: 15px;
-          color: #1e1c21;
-        }
 
         p {
           font-size: 18px;
@@ -267,7 +266,7 @@ body {
         }
 
         .highlightedText {
-          color:  black;
+          color: black;
         }
         .highlightedTextBlack {
           color: white;
@@ -296,8 +295,6 @@ body {
         order: 1;
         padding: 0 10px 0 0;
       }
-
-
 
       .headingText {
         order: 2;
@@ -338,6 +335,10 @@ body {
           img {
             max-width: 100%;
           }
+        }
+        .featured_heading {
+          font-size: 24px;
+          vertical-align: middle;
         }
       }
     }

@@ -42,11 +42,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>
-                                    <FontAwesomeIcon
-                                        className={"fontIconLeft"}
-                                        icon={faPlay}
-                                    />
+                                <h2 className={"featured_heading"}>
+                                    <span>
+                                        <FontAwesomeIcon
+                                            className={"fontIconLeft"}
+                                            icon={faPlay}
+                                        />
+                                    </span>
+
                                     Open application
                                 </h2>
                                 <p>Hover to the side to open the application.
@@ -76,11 +79,14 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2 className={"headingRight highlightedText"}>
-                                    <span className={"headingText"}>Drag & Drop</span>
-                                    <FontAwesomeIcon
-                                        className={"fontIconRight"}
-                                        icon={faMousePointer}
-                                    />
+                                    <span className={"headingText featured_heading"}>Drag & Drop</span>
+                                    <span>
+                                        <FontAwesomeIcon
+                                            className={"fontIconRight"}
+                                            icon={faMousePointer}
+                                        />
+                                    </span>
+
 
                                 </h2>
                                 <p className={"pRight"}>Manipulate your tab in a tree-like hierarchy. Group the most important tabs together and have access to them quickly.</p>
@@ -93,11 +99,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>
-                                    <FontAwesomeIcon
-                                        className={"fontIconLeft"}
-                                        icon={faProjectDiagram}
-                                    />
+                                <h2 className={"featured_heading"}>
+                                    <span>
+                                        <FontAwesomeIcon
+                                            className={"fontIconLeft"}
+                                            icon={faProjectDiagram}
+                                        />
+                                    </span>
+
                                     Drag & Drop (Pinned)
                                 </h2>
                                 <p>Tabs with children tabs attached can be collapsed or expanded.</p>
@@ -125,11 +134,14 @@ const IndexPage = () => (
                             <div className={"feature__content"}>
 
                                 <h2 className={"headingRight highlightedText highlightedTextBlack"}>
-                                    <span className={"headingText"}>Resize menu</span>
-                                    <FontAwesomeIcon
-                                        className={"fontIconRight"}
-                                        icon={faArrowsAltH}
-                                    />
+                                    <span className={"headingText featured_heading"}>Resize menu</span>
+                                    <span>
+                                        <FontAwesomeIcon
+                                            className={"fontIconRight"}
+                                            icon={faArrowsAltH}
+                                        />
+                                    </span>
+
 
                                 </h2>
                                 <p className={"pRight"}>Hover on the edge of the menu until the resize cursor shows, and then drag left or right until the desired size is reached.</p>
@@ -143,11 +155,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>
-                                    <FontAwesomeIcon
-                                        className={"fontIconLeft"}
-                                        icon={faCompressAlt}
-                                    />
+                                <h2 className={"featured_heading"}>
+                                    <span>
+                                        <FontAwesomeIcon
+                                            className={"fontIconLeft"}
+                                            icon={faCompressAlt}
+                                        />
+                                    </span>
+
                                     Collapsable Tab
                                 </h2>
                                 <p>Tabs with children tabs attached can be collapsed or expanded.</p>
@@ -173,12 +188,15 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2 className={"headingRight highlightedText"}>
-                                    <span className={"headingText"}>Context Menu</span>
-                                    <FontAwesomeIcon
-                                        className={"fontIconRight"}
-                                        icon={faCaretSquareDown}
+                                    <span className={"headingText featured_heading"}>Context Menu</span>
+                                    <span>
+                                        <FontAwesomeIcon
+                                            className={"fontIconRight"}
+                                            icon={faCaretSquareDown}
 
-                                    />
+                                        />
+                                    </span>
+
 
                                 </h2>
                                 <p className={"pRight"}>Right click on any tab to add, duplicate, mute/unmute or pin a tab.</p>
@@ -192,11 +210,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>
-                                    <FontAwesomeIcon
-                                        className={"fontIconLeft"}
-                                        icon={faCaretSquareUp}
-                                    />
+                                <h2 className={"featured_heading"}>
+                                    <span>
+                                        <FontAwesomeIcon
+                                            className={"fontIconLeft"}
+                                            icon={faCaretSquareUp}
+                                        />
+                                    </span>
+
                                     Context Menu (Pinned)
                                 </h2>
                                 <p>Right click on any pinned tab to add, mute/unmute, or unpin a pinned tab.</p>
