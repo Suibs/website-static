@@ -233,9 +233,8 @@ body {
         background: black;
         border-radius: 17px;
         padding: 30px 20px;
-        box-shadow: 0 30px 60px rgba(0,0,0,0.12);
+        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
       }
-
 
       .row {
         display: flex;
@@ -264,9 +263,8 @@ body {
           color: dimgrey;
         }
 
-
         .highlightedText {
-          color:white
+          color: white;
         }
       }
 
@@ -293,6 +291,8 @@ body {
         padding: 0 10px 0 0;
       }
 
+
+
       .headingText {
         order: 2;
       }
@@ -311,6 +311,10 @@ body {
         margin: 0;
       }
 
+      .feature__content {
+        padding: 15px;
+      }
+
       h2 {
         text-align: center;
         margin-top: 10px;
@@ -319,8 +323,10 @@ body {
         text-align: center;
       }
 
-
       .feature__item {
+        .highlighted {
+          padding: 0px;
+        }
         .thumbnail {
           text-align: center;
           img {
