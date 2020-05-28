@@ -4,17 +4,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import logo from "../../static/images/logo.svg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import dots from "../../static/images/dots.gif";
 import { faPlay, faMousePointer, faCompressAlt, faCaretSquareDown, faArrowsAltH, faCaretSquareUp, faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
 import { config } from "@fortawesome/fontawesome-svg-core"
 import "@fortawesome/fontawesome-svg-core/styles.css"
-import openMenu from "../../static/images/openMenu.gif";
-import dragPinned from "../../static/images/dragPinned.gif";
-import resizeMenu from "../../static/images/resizeMenu.gif";
-import contextMenuPin from "../../static/images/contextMenuPin.gif";
-import contextMenuNormal from "../../static/images/contextMenuNormal.gif";
-import collapse from "../../static/images/collapse.gif";
-import dragDrop from "../../static/images/dragDrop.gif";
+
 config.autoAddCss = false
 
 const HowToUse = () => (
@@ -54,7 +47,7 @@ const HowToUse = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img src={openMenu} alt={"Open menu"} />
+                                <img src={"https://treestyletab.s3.eu-west-3.amazonaws.com/openMenu.gif"} alt={"Open menu"} />
 
                             </div>
                         </div>
@@ -65,7 +58,7 @@ const HowToUse = () => (
                     <div className={"row highlighted"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img src={dragDrop} alt={"Drag & Drop"} />
+                                <img src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dragDrop.gif"} alt={"Drag & Drop"} />
 
 
                             </div>
@@ -104,7 +97,7 @@ const HowToUse = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img src={dragPinned} alt={"Drag pinned"} />
+                                <img src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dragPinned.gif"} alt={"Drag pinned"} />
                             </div>
                         </div>
                     </div>
@@ -114,7 +107,7 @@ const HowToUse = () => (
                     <div className={"row highlighted highlightedBlack"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img src={resizeMenu} alt={"Resize menu"} />
+                                <img src={"https://treestyletab.s3.eu-west-3.amazonaws.com/resizeMenu.gif"} alt={"Resize menu"} />
 
                             </div>
                         </div>
@@ -154,7 +147,7 @@ const HowToUse = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img src={collapse} alt={"Collapsable tab"} />
+                                <img src={"https://treestyletab.s3.eu-west-3.amazonaws.com/collapse.gif"} alt={"Collapsable tab"} />
                             </div>
                         </div>
                     </div>
@@ -164,7 +157,7 @@ const HowToUse = () => (
                     <div className={"row highlighted"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img src={contextMenuNormal} alt={"Context menu normal tab"} />
+                                <img src={"https://treestyletab.s3.eu-west-3.amazonaws.com/contextMenuNormal.gif"} alt={"Context menu normal tab"} />
                             </div>
                         </div>
 
@@ -203,7 +196,7 @@ const HowToUse = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img src={contextMenuPin} alt={"Context menu pinned tab"} />
+                                <img src={"https://treestyletab.s3.eu-west-3.amazonaws.com/contextMenuPin.gif"} alt={"Context menu pinned tab"} />
                             </div>
                         </div>
                     </div>
