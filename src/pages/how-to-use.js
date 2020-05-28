@@ -32,7 +32,6 @@ const HowToUse = () => (
             </div>
         </div>
 
-
         <div className={"container"}>
             <div className={"features"}>
                 <div className={"feature__item"}>
@@ -55,7 +54,7 @@ const HowToUse = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img src={openMenu} alt={"Open menu"}/>
+                                <img src={openMenu} alt={"Open menu"} />
 
                             </div>
                         </div>
@@ -112,7 +111,7 @@ const HowToUse = () => (
                 </div>
 
                 <div className={"feature__item"}>
-                    <div className={"row highlighted"}>
+                    <div className={"row highlighted highlightedBlack"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
                                 <img src={resizeMenu} alt={"Resize menu"} />
@@ -123,7 +122,7 @@ const HowToUse = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
 
-                                <h2 className={"headingRight highlightedText"}>
+                                <h2 className={"headingRight highlightedText highlightedTextBlack"}>
                                     <span className={"headingText"}>Resize menu</span>
                                     <FontAwesomeIcon
                                         className={"fontIconRight"}
@@ -155,7 +154,7 @@ const HowToUse = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img src={collapse}  alt={"Collapsable tab"} />
+                                <img src={collapse} alt={"Collapsable tab"} />
                             </div>
                         </div>
                     </div>
@@ -213,6 +212,9 @@ const HowToUse = () => (
 
             </div>
         </div>
+
+
+
 
 
         <div className={"call-to-action"}>

@@ -121,7 +121,7 @@ const IndexPage = () => (
                 </div>
 
                 <div className={"feature__item"}>
-                    <div className={"row highlighted"}>
+                    <div className={"row highlighted highlightedBlack"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
                                 <img src={resizeMenu} alt={"Resize menu"} />
@@ -132,7 +132,7 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
 
-                                <h2 className={"headingRight highlightedText"}>
+                                <h2 className={"headingRight highlightedText highlightedTextBlack"}>
                                     <span className={"headingText"}>Resize menu</span>
                                     <FontAwesomeIcon
                                         className={"fontIconRight"}

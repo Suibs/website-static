@@ -230,10 +230,13 @@ body {
         width: 100%;
       }
       .highlighted {
-        background: black;
+        background: white;
         border-radius: 17px;
         padding: 30px 20px;
         box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
+      }
+      .highlightedBlack {
+        background: black;
       }
 
       .row {
@@ -264,6 +267,9 @@ body {
         }
 
         .highlightedText {
+          color:  black;
+        }
+        .highlightedTextBlack {
           color: white;
         }
       }
@@ -400,7 +406,7 @@ body {
     .call-to-action__content {
       h2 {
         font-size: 36px;
-        font-family: Open Sans;
+        font-family: Inter;
         font-weight: 600;
         margin: 0 0 32px;
         color: #ffffff;
