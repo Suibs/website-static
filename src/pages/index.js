@@ -2,15 +2,14 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import thumbnailEvent from "../../static/images/feature-event.jpg"
-import addImage from "../../static/images/add.svg";
-import serverImage from "../../static/images/server.svg";
-import inlineImage from "../../static/images/inline.svg";
 import chromeImage from "../../static/images/chrome.svg";
-import colourImage from "../../static/images/colour.svg";
 import featureImage from "../../static/images/mainBackup.jpg";
-import ddPicture from "../../static/images/ddPicture.jpg";
-import ddBackup from "../../static/images/DDBackup.jpg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import dots from "../../static/images/dots.gif";
+import { faPlay, faMousePointer, faCompressAlt, faCaretSquareDown, faArrowsAltH, faCaretSquareUp, faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
+import { config } from "@fortawesome/fontawesome-svg-core"
+import "@fortawesome/fontawesome-svg-core/styles.css"
+config.autoAddCss = false
 const IndexPage = () => (
     <Layout>
         <SEO title="Manage & Organise Your Tab" />
@@ -36,82 +35,187 @@ const IndexPage = () => (
                 </div>
             </div>
         </div>
-        <div className={"features"}>
-            <div className={"special-container"}>
-                <div className={"targets"}>
-                    <div className={"row"}>
-                        <div className={"col-item space"}>
-                            <div className={"item"}>
-                                <img alt={"Information"} src={addImage} />
-                                <h3>Tab managment</h3>
-                                <p>Add and delete tabs on the fly.</p>
-                            </div>
-                        </div>
-
-                        <div className={"col-item space"}>
-                            <div className={"item"}>
-                                <img alt={"Event"} src={serverImage} />
-                                <h3>Real-time update</h3>
-                                <p>Tab updates tracked using Chrome API.</p>
-                            </div>
-                        </div>
-
-                        <div className={"col-item space"}>
-                            <div className={"item"}>
-                                <img alt={"Event"} src={inlineImage} />
-                                <h3>Inline menu</h3>
-                                <p>Hover on the side or use your chosen hotkeys.</p>
-                            </div>
-                        </div>
-                        <div className={"col-item space"}>
-                            <div className={"item"}>
-                                <img alt={"Event"} src={colourImage} />
-                                <h3>Themes</h3>
-                                <p>Toggle to refresh your experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
         <div className={"container"}>
             <div className={"features"}>
                 <div className={"feature__item"}>
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Drag & Drop</h2>
-                                <p>It's simple. Rearrange your tab by dragging and dropping the tab onto another tab. Created using React.</p>
+                                <h2>
+                                    <FontAwesomeIcon
+                                        className={"fontIconLeft"}
+                                        icon={faPlay}
+                                    />
+                                    Open application
+                                </h2>
+                                <p>Hover to the side to open the application.
+                                </p>
                             </div>
                         </div>
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dd.mp4"} poster={ddBackup} className={"hidden-sm"} />
-                                <img alt={"Drag and Drop"} src={ddPicture} className={"display-sm border-sm"} />
+                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/openMenu.mp4#t=0.1"} poster={dots} className={"hidden-sm"} />
+
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div className={"feature__item"}>
-                    <div className={"row"}>
+                    <div className={"row highlighted"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Event"} src={thumbnailEvent} className={"border-sm"} />
+
+                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dragDrop.mp4#t=0.1"} poster={dots} className={"hidden-sm"} />
+
+
+
                             </div>
                         </div>
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Tree-like structure</h2>
-                                <p>Manipulate your tab in a tree-like hierarchy. Increase your productivity and group the most important tabs together and access them quickly.</p>
+                                <h2 className={"headingRight highlightedText"}>
+                                    <span className={"headingText"}>Drag & Drop</span>
+                                    <FontAwesomeIcon
+                                        className={"fontIconRight"}
+                                        icon={faMousePointer}
+                                    />
+
+                                </h2>
+                                <p className={"pRight"}>Manipulate your tab in a tree-like hierarchy. Group the most important tabs together and have access to them quickly.</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div className={"feature__item"}>
+                    <div className={"row"}>
+                        <div className={"col-6"}>
+                            <div className={"feature__content"}>
+                                <h2>
+                                    <FontAwesomeIcon
+                                        className={"fontIconLeft"}
+                                        icon={faProjectDiagram}
+                                    />
+                                    Drag & Drop (Pinned)
+                                </h2>
+                                <p>Tabs with children tabs attached can be collapsed or expanded.</p>
+                            </div>
+                        </div>
+
+                        <div className={"col-6 first"}>
+                            <div className={"thumbnail"}>
+                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dragPinned.mp4#t=0.1"} poster={dots} className={"hidden-sm"} />
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={"feature__item"}>
+                    <div className={"row highlighted"}>
+                        <div className={"col-6 first"}>
+                            <div className={"thumbnail"}>
+                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/resizeMenu.mp4#t=0.1"} poster={dots} className={"hidden-sm"} />
+
+
+                            </div>
+                        </div>
+
+                        <div className={"col-6"}>
+                            <div className={"feature__content"}>
+
+                                <h2 className={"headingRight highlightedText"}>
+                                    <span className={"headingText"}>Resize menu</span>
+                                    <FontAwesomeIcon
+                                        className={"fontIconRight"}
+                                        icon={faArrowsAltH}
+                                    />
+
+                                </h2>
+                                <p className={"pRight"}>Hover on the edge of the menu until the resize cursor shows, and then drag left or right until the desired size is reached.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className={"feature__item"}>
+                    <div className={"row"}>
+                        <div className={"col-6"}>
+                            <div className={"feature__content"}>
+                                <h2>
+                                    <FontAwesomeIcon
+                                        className={"fontIconLeft"}
+                                        icon={faCompressAlt}
+                                    />
+                                    Collapsable Tab
+                                </h2>
+                                <p>Tabs with children tabs attached can be collapsed or expanded.</p>
+                            </div>
+                        </div>
+
+                        <div className={"col-6 first"}>
+                            <div className={"thumbnail"}>
+                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/collapse.mp4#t=0.1"} poster={dots} className={"hidden-sm"} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={"feature__item"}>
+                    <div className={"row highlighted"}>
+                        <div className={"col-6 first"}>
+                            <div className={"thumbnail"}>
+                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/contextMenuNormal.mp4#t=0.1"} poster={dots} className={"hidden-sm"} />
+
+                            </div>
+                        </div>
+
+                        <div className={"col-6"}>
+                            <div className={"feature__content"}>
+                                <h2 className={"headingRight highlightedText"}>
+                                    <span className={"headingText"}>Context Menu</span>
+                                    <FontAwesomeIcon
+                                        className={"fontIconRight"}
+                                        icon={faCaretSquareDown}
+
+                                    />
+
+                                </h2>
+                                <p className={"pRight"}>Right click on any tab to add, duplicate, mute/unmute or pin a tab.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className={"feature__item"}>
+                    <div className={"row"}>
+                        <div className={"col-6"}>
+                            <div className={"feature__content"}>
+                                <h2>
+                                    <FontAwesomeIcon
+                                        className={"fontIconLeft"}
+                                        icon={faCaretSquareUp}
+                                    />
+                                    Context Menu (Pinned)
+                                </h2>
+                                <p>Right click on any pinned tab to add, mute/unmute, or unpin a pinned tab.</p>
+                            </div>
+                        </div>
+
+                        <div className={"col-6 first"}>
+                            <div className={"thumbnail"}>
+                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/contextMenuPin.mp4#t=0.1"} poster={dots} className={"hidden-sm"} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
 

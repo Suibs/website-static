@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import logo from "../../static/images/logo.svg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import  dots from "../../static/images/dots.gif";
+import dots from "../../static/images/dots.gif";
 import { faPlay, faMousePointer, faCompressAlt, faCaretSquareDown, faArrowsAltH, faCaretSquareUp, faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
 import { config } from "@fortawesome/fontawesome-svg-core"
 import "@fortawesome/fontawesome-svg-core/styles.css"
@@ -46,7 +46,7 @@ const HowToUse = () => (
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/openMenu.mp4#t=0.1"} poster={dots} className={""}/>
+                                <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/openMenu.mp4#t=0.1"} poster={dots} className={""} />
 
                             </div>
                         </div>
@@ -54,7 +54,7 @@ const HowToUse = () => (
                 </div>
 
                 <div className={"feature__item"}>
-                    <div className={"row"}>
+                    <div className={"row highlighted"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
 
@@ -67,14 +67,15 @@ const HowToUse = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2 style={{ textAlign: "end" }}>
-                                    Drag & Drop (Normal Tab)
+                                <h2 className={"headingRight highlightedText"}>
+                                    <span className={"headingText"}>Drag & Drop</span>
                                     <FontAwesomeIcon
                                         className={"fontIconRight"}
                                         icon={faMousePointer}
                                     />
+
                                 </h2>
-                                <p style={{ textAlign: "right" }}>Manipulate your tab in a tree-like hierarchy. Group the most important tabs together and have access to them quickly.</p>
+                                <p className={"pRight"}>Manipulate your tab in a tree-like hierarchy. Group the most important tabs together and have access to them quickly.</p>
                             </div>
                         </div>
                     </div>
@@ -89,7 +90,7 @@ const HowToUse = () => (
                                         className={"fontIconLeft"}
                                         icon={faProjectDiagram}
                                     />
-                                    Drag & Drop (Pinned Tab)
+                                    Drag & Drop (Pinned)
                                 </h2>
                                 <p>Tabs with children tabs attached can be collapsed or expanded.</p>
                             </div>
@@ -105,7 +106,7 @@ const HowToUse = () => (
                 </div>
 
                 <div className={"feature__item"}>
-                    <div className={"row"}>
+                    <div className={"row highlighted"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
                                 <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/resizeMenu.mp4#t=0.1"} poster={dots} className={""} />
@@ -116,14 +117,16 @@ const HowToUse = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2 style={{ textAlign: "end" }}>
-                                    Resize menu
+
+                                <h2 className={"headingRight highlightedText"}>
+                                    <span className={"headingText"}>Resize menu</span>
                                     <FontAwesomeIcon
                                         className={"fontIconRight"}
                                         icon={faArrowsAltH}
                                     />
+
                                 </h2>
-                                <p style={{ textAlign: "right" }}>Hover on the edge of the menu until the resize cursor shows, and then drag left or right until the desired size is reached.</p>
+                                <p className={"pRight"}>Hover on the edge of the menu until the resize cursor shows, and then drag left or right until the desired size is reached.</p>
                             </div>
                         </div>
                     </div>
@@ -154,7 +157,7 @@ const HowToUse = () => (
                 </div>
 
                 <div className={"feature__item"}>
-                    <div className={"row"}>
+                    <div className={"row highlighted"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
                                 <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/contextMenuNormal.mp4#t=0.1"} poster={dots} className={""} />
@@ -164,14 +167,16 @@ const HowToUse = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2 style={{ textAlign: "end" }}>
-                                    Context Menu (Normal Tab)
+                                <h2 className={"headingRight highlightedText"}>
+                                    <span className={"headingText"}>Context Menu</span>
                                     <FontAwesomeIcon
                                         className={"fontIconRight"}
                                         icon={faCaretSquareDown}
+
                                     />
+
                                 </h2>
-                                <p style={{ textAlign: "right" }}>Right click on any tab to add, duplicate, mute/unmute or pin a tab.</p>
+                                <p className={"pRight"}>Right click on any tab to add, duplicate, mute/unmute or pin a tab.</p>
                             </div>
                         </div>
                     </div>
@@ -187,7 +192,7 @@ const HowToUse = () => (
                                         className={"fontIconLeft"}
                                         icon={faCaretSquareUp}
                                     />
-                                    Context Menu (Pinned tab)
+                                    Context Menu (Pinned)
                                 </h2>
                                 <p>Right click on any pinned tab to add, mute/unmute, or unpin a pinned tab.</p>
                             </div>

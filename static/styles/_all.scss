@@ -208,18 +208,33 @@ body {
   .features {
     padding: 10vh 0 10vh 0;
     border-bottom: 1px solid #eaeaea;
+    .fontIconLeft {
+      padding: 0 20px 0 0;
+    }
+    .fontIconRight {
+      padding: 0 0 0 20px;
+    }
+
+    .pRight {
+      float: right;
+      text-align: end;
+    }
+
+    .headingRight {
+      text-align: end;
+    }
     .feature__item {
       padding: 50px 0;
-      .fontIconLeft {
-        padding: 0 20px 0 0;
-      }
-      .fontIconRight {
-        padding: 0 0 0 20px;
-      }
 
       video {
         width: 100%;
       }
+      .highlighted {
+        background: black;
+        border-radius: 17px;
+        padding: 30px 20px;
+      }
+
 
       .row {
         display: flex;
@@ -245,7 +260,12 @@ body {
         p {
           font-size: 18px;
           line-height: 26px;
-          color: grey;
+          color: dimgrey;
+        }
+
+
+        .highlightedText {
+          color:white
         }
       }
 
@@ -259,6 +279,25 @@ body {
     @media screen and (max-width: $break-small) {
       .col-6.first {
         order: 1;
+      }
+
+      .headingRight {
+        justify-content: center;
+        text-align: center;
+        display: flex;
+      }
+
+      .fontIconRight {
+        order: 1;
+        padding: 0 10px 0 0;
+      }
+
+      .headingText {
+        order: 2;
+      }
+
+      .pRight {
+        text-align: center;
       }
 
       .col-6 {
@@ -278,6 +317,7 @@ body {
       p {
         text-align: center;
       }
+
 
       .feature__item {
         .thumbnail {
