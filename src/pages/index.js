@@ -9,6 +9,13 @@ import dots from "../../static/images/dots.gif";
 import { faPlay, faMousePointer, faCompressAlt, faCaretSquareDown, faArrowsAltH, faCaretSquareUp, faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
 import { config } from "@fortawesome/fontawesome-svg-core"
 import "@fortawesome/fontawesome-svg-core/styles.css"
+import openMenu from "../../static/images/openMenu.gif";
+import dragPinned from "../../static/images/dragPinned.gif";
+import resizeMenu from "../../static/images/resizeMenu.gif";
+import contextMenuPin from "../../static/images/contextMenuPin.gif";
+import contextMenuNormal from "../../static/images/contextMenuNormal.gif";
+import collapse from "../../static/images/collapse.gif";
+import dragDrop from "../../static/images/dragDrop.gif";
 config.autoAddCss = false
 const IndexPage = () => (
     <Layout>
@@ -56,6 +63,7 @@ const IndexPage = () => (
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
                                 <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/openMenu.mp4#t=0.1"} poster={dots} className={"hidden-sm"} />
+                                <img src={openMenu} className={"display-sm"} alt={"Open menu"}/>
 
                             </div>
                         </div>
@@ -68,7 +76,7 @@ const IndexPage = () => (
                             <div className={"thumbnail"}>
 
                                 <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dragDrop.mp4#t=0.1"} poster={dots} className={"hidden-sm"} />
-
+                                <img src={dragDrop} className={"display-sm"} alt={"Drag & Drop"} />
 
 
                             </div>
@@ -108,7 +116,7 @@ const IndexPage = () => (
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
                                 <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dragPinned.mp4#t=0.1"} poster={dots} className={"hidden-sm"} />
-
+                                <img src={dragPinned} className={"display-sm"} alt={"Drag pinned"} />
                             </div>
                         </div>
                     </div>
@@ -119,7 +127,7 @@ const IndexPage = () => (
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
                                 <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/resizeMenu.mp4#t=0.1"} poster={dots} className={"hidden-sm"} />
-
+                                <img src={resizeMenu} className={"display-sm"} alt={"Resize menu"} />
 
                             </div>
                         </div>
@@ -160,6 +168,7 @@ const IndexPage = () => (
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
                                 <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/collapse.mp4#t=0.1"} poster={dots} className={"hidden-sm"} />
+                                <img src={collapse} className={"display-sm"} alt={"Collapsable tab"} />
                             </div>
                         </div>
                     </div>
@@ -170,7 +179,7 @@ const IndexPage = () => (
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
                                 <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/contextMenuNormal.mp4#t=0.1"} poster={dots} className={"hidden-sm"} />
-
+                                <img src={contextMenuNormal} className={"display-sm"} alt={"Context menu normal tab"} />
                             </div>
                         </div>
 
@@ -210,6 +219,7 @@ const IndexPage = () => (
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
                                 <video preload="metadata" autoPlay muted loop src={"https://treestyletab.s3.eu-west-3.amazonaws.com/contextMenuPin.mp4#t=0.1"} poster={dots} className={"hidden-sm"} />
+                                <img src={contextMenuPin} className={"display-sm"} alt={"Context menu pinned tab"} />
                             </div>
                         </div>
                     </div>
@@ -222,12 +232,12 @@ const IndexPage = () => (
         <div className={"call-to-action"}>
             <div className={"container call-to-action_inner"}>
                 <div className={"call-to-action__content"}>
-                    <h2>Check it out!</h2>
-                    <p>We're now on the Google Chrome extension store.</p>
+                    <h2>Get Tree Style Tab</h2>
+                    <p>Don't hesitate, you deserve the best browsing experience!</p>
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://chrome.google.com/webstore/detail/tree-style-tab-for-chrome/hbledhepdppepjnbnohiepcpcnphimdj" target={"_blank"} rel="noopener noreferrer">Get Started</a>
+                    <a href="https://chrome.google.com/webstore/detail/tree-style-tab-for-chrome/hbledhepdppepjnbnohiepcpcnphimdj" target={"_blank"} rel="noopener noreferrer">Install</a>
                 </div>
             </div>
 
