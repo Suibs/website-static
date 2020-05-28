@@ -78,8 +78,8 @@ const IndexPage = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2 className={"headingRight highlightedText"}>
-                                    <span className={"headingText featured_heading"}>Drag & Drop</span>
+                                <h2 className={"headingRight highlightedText featured_heading"}>
+                                    <span className={"headingText"}>Drag & Drop</span>
                                     <span>
                                         <FontAwesomeIcon
                                             className={"fontIconRight"}
@@ -107,7 +107,7 @@ const IndexPage = () => (
                                         />
                                     </span>
 
-                                    Drag & Drop (Pinned)
+                                    Drag & Drop (Pinned Tab)
                                 </h2>
                                 <p>Tabs with children tabs attached can be collapsed or expanded.</p>
                             </div>
@@ -133,8 +133,8 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
 
-                                <h2 className={"headingRight highlightedText highlightedTextBlack"}>
-                                    <span className={"headingText featured_heading"}>Resize menu</span>
+                                <h2 className={"headingRight highlightedText highlightedTextBlack featured_heading"}>
+                                    <span className={"headingText"}>Resize menu</span>
                                     <span>
                                         <FontAwesomeIcon
                                             className={"fontIconRight"}
@@ -187,8 +187,8 @@ const IndexPage = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2 className={"headingRight highlightedText"}>
-                                    <span className={"headingText featured_heading"}>Context Menu</span>
+                                <h2 className={"headingRight highlightedText featured_heading"}>
+                                    <span className={"headingText"}>Context Menu</span>
                                     <span>
                                         <FontAwesomeIcon
                                             className={"fontIconRight"}
@@ -217,7 +217,7 @@ const IndexPage = () => (
                                             icon={faCaretSquareUp}
                                         />
                                     </span>
-                                    <span className={"featured_heading"}>Context Menu (Pinned)</span>
+                                    <span>Context Menu (Pinned Tab)</span>
 
                                 </h2>
                                 <p>Right click on any pinned tab to add, mute/unmute, or unpin a pinned tab.</p>

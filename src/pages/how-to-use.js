@@ -25,7 +25,6 @@ const HowToUse = () => (
             </div>
         </div>
 
-
         <div className={"container"}>
             <div className={"features"}>
                 <div className={"feature__item"}>
@@ -70,8 +69,8 @@ const HowToUse = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2 className={"headingRight highlightedText"}>
-                                    <span className={"headingText featured_heading"}>Drag & Drop</span>
+                                <h2 className={"headingRight highlightedText featured_heading"}>
+                                    <span className={"headingText"}>Drag & Drop</span>
                                     <span>
                                         <FontAwesomeIcon
                                             className={"fontIconRight"}
@@ -99,7 +98,7 @@ const HowToUse = () => (
                                         />
                                     </span>
 
-                                    Drag & Drop (Pinned)
+                                    Drag & Drop (Pinned Tab)
                                 </h2>
                                 <p>Tabs with children tabs attached can be collapsed or expanded.</p>
                             </div>
@@ -125,8 +124,8 @@ const HowToUse = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
 
-                                <h2 className={"headingRight highlightedText highlightedTextBlack"}>
-                                    <span className={"headingText featured_heading"}>Resize menu</span>
+                                <h2 className={"headingRight highlightedText highlightedTextBlack featured_heading"}>
+                                    <span className={"headingText"}>Resize menu</span>
                                     <span>
                                         <FontAwesomeIcon
                                             className={"fontIconRight"}
@@ -179,8 +178,8 @@ const HowToUse = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2 className={"headingRight highlightedText"}>
-                                    <span className={"headingText featured_heading"}>Context Menu</span>
+                                <h2 className={"headingRight highlightedText featured_heading"}>
+                                    <span className={"headingText"}>Context Menu</span>
                                     <span>
                                         <FontAwesomeIcon
                                             className={"fontIconRight"}
@@ -209,8 +208,8 @@ const HowToUse = () => (
                                             icon={faCaretSquareUp}
                                         />
                                     </span>
+                                    <span>Context Menu (Pinned Tab)</span>
 
-                                    Context Menu (Pinned)
                                 </h2>
                                 <p>Right click on any pinned tab to add, mute/unmute, or unpin a pinned tab.</p>
                             </div>
@@ -227,8 +226,6 @@ const HowToUse = () => (
 
             </div>
         </div>
-
-
 
 
         <div className={"call-to-action"}>
