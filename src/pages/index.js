@@ -217,8 +217,8 @@ const IndexPage = () => (
                                             icon={faCaretSquareUp}
                                         />
                                     </span>
+                                    <span className={"featured_heading"}>Context Menu (Pinned)</span>
 
-                                    Context Menu (Pinned)
                                 </h2>
                                 <p>Right click on any pinned tab to add, mute/unmute, or unpin a pinned tab.</p>
                             </div>

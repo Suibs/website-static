@@ -296,6 +296,10 @@ body {
         padding: 0 10px 0 0;
       }
 
+      .fontIconLeft {
+        padding: 0 10px 0 0;
+      }
+
       .headingText {
         order: 2;
       }
@@ -339,6 +343,12 @@ body {
         .featured_heading {
           font-size: 24px;
           vertical-align: middle;
+          .h2 {
+            .span {
+              font-size: 24px;
+              vertical-align: middle;
+            }
+          }
         }
       }
     }
