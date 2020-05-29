@@ -226,21 +226,6 @@ const HowToUse = () => (
 
             </div>
         </div>
-
-
-        <div className={"call-to-action"}>
-            <div className={"container call-to-action_inner"}>
-                <div className={"call-to-action__content"}>
-                    <h2>Check it out!</h2>
-                    <p>We're now on the Google Chrome extension store.</p>
-                </div>
-
-                <div className={"button"}>
-                    <a href="https://chrome.google.com/webstore/detail/tree-style-tab-for-chrome/hbledhepdppepjnbnohiepcpcnphimdj" target={"_blank"} rel="noopener noreferrer">Get Started</a>
-                </div>
-            </div>
-
-        </div>
     </Layout >
 )
 
