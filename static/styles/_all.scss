@@ -28,7 +28,7 @@ body {
 
     &:hover,
     &:active {
-      color: grey;
+      color: rgba(0, 0, 0, .5);;
     }
   }
 
@@ -130,7 +130,7 @@ body {
       line-height: 34px;
       text-align: left;
       padding: 0 0 15px 0;
-      color: grey;
+      color: dimgray;
     }
     video,
     img {
@@ -238,6 +238,7 @@ body {
       font-weight: normal;
       font-size: 20px;
       line-height: 34px;
+      color: rgba(0, 0, 0, .5);
     }
 
     img {
@@ -325,7 +326,7 @@ body {
         p, li {
           font-size: 18px;
           line-height: 26px;
-          color: dimgrey;
+          color: rgba(0, 0, 0, .5);;
         }
 
         .highlightedText {
@@ -537,7 +538,7 @@ body {
       p {
         font-size: 18px;
         line-height: 26px;
-        color: grey;
+        color: rgba(0, 0, 0, .5);;
       }
 
       img {
