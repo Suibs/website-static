@@ -37,7 +37,7 @@ const IndexPage = () => (
 
         <div className={"page-preview hidden-sm"}>
             <h1>Display in any way you want</h1>
-            <p>Whether you want quick access or a persistent view of your tabs, we have you all covered</p>
+            <p>Whether you just want quick access or would like a more persistent view of your tabs, we have you all covered</p>
             <div style={{ width: "50%", textAlign: "center", margin: "60px auto 0 auto" }}>
                 <ReactCompareImage aspectRatio={'wider'} leftImage={inlineImage} rightImage={popupImage} />
             </div>
