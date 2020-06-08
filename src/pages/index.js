@@ -93,49 +93,6 @@ const IndexPage = () => (
                         </div>
                     </div>
 
-                    <div className={"feature__item"}>
-                        <div className={"row"}>
-                            <div className={"col-6"}>
-                                <div className={"feature__content"}>
-                                    <h2 className={"featured_heading"}>
-
-
-                                    Drag & Drop (Pinned)
-                                </h2>
-                                    <p>Tabs with children tabs attached can be collapsed or expanded.</p>
-                                </div>
-                            </div>
-
-                            <div className={"col-6 first"}>
-                                <div className={"thumbnail"}>
-                                    <img className={"shadow"} src={"https://treestyletab.s3.eu-west-3.amazonaws.com/dragPinned.gif"} alt={"Drag pinned"} />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className={"feature__item"}>
-                        <div className={"row highlighted"}>
-                            <div className={"col-6 first"}>
-                                <div className={"thumbnail"}>
-                                    <img src={"https://treestyletab.s3.eu-west-3.amazonaws.com/resizeMenu.gif"} alt={"Resize menu"} />
-
-                                </div>
-                            </div>
-
-                            <div className={"col-6"}>
-                                <div className={"feature__content"}>
-
-                                    <h2 className={"headingRight highlightedText featured_heading"}>
-                                        <span className={"headingText"}>Resize menu</span>
-
-                                    </h2>
-                                    <p className={"pRight"}>Hover on the edge of the menu until the resize cursor shows, and then drag left or right until the desired size is reached.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
 
                     <div className={"feature__item"}>
                         <div className={"row"}>
@@ -146,7 +103,7 @@ const IndexPage = () => (
 
                                     Collapsable Tab
                                 </h2>
-                                    <p>Tabs with children tabs attached can be collapsed or expanded.</p>
+                                    <p>Expand or collapse tabs to keep a plain view of what you're browsing in the moment.</p>
                                 </div>
                             </div>
 
@@ -174,34 +131,11 @@ const IndexPage = () => (
 
 
                                     </h2>
-                                    <p className={"pRight"}>Right click on any tab to add, duplicate, mute/unmute or pin a tab.</p>
+                                    <p className={"pRight"}>All the functionalities you need are one right click away.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
-                    <div className={"feature__item"}>
-                        <div className={"row"}>
-                            <div className={"col-6"}>
-                                <div className={"feature__content"}>
-                                    <h2 className={"featured_heading"}>
-
-                                        <span>Context Menu (Pinned)</span>
-
-                                    </h2>
-                                    <p>Right click on any pinned tab to add, mute/unmute, or unpin a pinned tab.</p>
-                                </div>
-                            </div>
-
-                            <div className={"col-6 first"}>
-                                <div className={"thumbnail"}>
-                                    <img className={"shadow"} src={"https://treestyletab.s3.eu-west-3.amazonaws.com/contextMenuPin.gif"} alt={"Context menu pinned tab"} />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
 
                 </div>
             </div>
