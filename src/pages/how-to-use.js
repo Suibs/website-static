@@ -3,17 +3,33 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import logo from "../../static/images/logo.svg"
+import { Link } from "gatsby";
+import { OutboundLink } from 'gatsby-plugin-gtag';
 
 
 const HowToUse = () => (
     <Layout>
         <SEO title="How to use" />
+        <header className={"main-header"}>
+            <div className={"container"}>
+                <div className={"top-menu"}>
+                    <div className={"logo"}>
+                        <Link to="/" title={"TST"}>
+                            <img alt={"Logo"} src={logo} />
+                        </Link>
+                    </div>
+
+
+                </div>
+            </div>
+        </header>
+
 
         <div className={"page-header-how-to home"}>
             <div className={"container"}>
                 <div className={"row"}>
                     <div className={"col-12"}>
-                        <h1>How to use <img alt={"Logo"} src={logo} /></h1>
+                        <h1>How to use</h1>
 
                     </div>
                 </div>
