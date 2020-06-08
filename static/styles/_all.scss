@@ -28,12 +28,12 @@ body {
 
     &:hover,
     &:active {
-      color: rgba(0, 0, 0, .5);;
+      color: rgba(0, 0, 0, 0.5);
     }
   }
 
-  header {
-    background-color: white;
+  .main-header {
+    background-color: black;
     display: block;
     padding: 39px 0;
 
@@ -57,15 +57,15 @@ body {
           font-size: 16px;
           line-height: 47px;
           display: block;
-          background: black;
+          background: white;
           border-radius: 4px;
-          border: 1px solid black;
+          border: 1px solid white;
           text-align: center;
-          color: #ffffff;
+          color: black;
           &:hover,
           &:active {
-            color: black;
-            background: white;
+            color: white;
+            background: black;
             transform: translate3d(0px, -1px, 0px);
           }
         }
@@ -175,12 +175,20 @@ body {
     .page-header-gif {
       width: 90%;
     }
+    .header-small-text {
+      display: block;
+      text-align: left;
+    }
     @media screen and (max-width: $break-large) {
       h1,
       p {
         text-align: center;
       }
-      .add-to-chrome {
+      .header-small-text {
+        display: none;
+      }
+
+      .add-to-chrome, .header-small-text {
         a {
           padding: 10px 0;
           display: none;
@@ -202,6 +210,11 @@ body {
           width: 100%;
           display: block;
         }
+      }
+
+      .header-small-text {
+        display: block;
+        text-align: center;
       }
 
       img {
@@ -238,7 +251,7 @@ body {
       font-weight: normal;
       font-size: 20px;
       line-height: 34px;
-      color: rgba(0, 0, 0, .5);
+      color: rgba(0, 0, 0, 0.5);
     }
 
     img {
@@ -263,6 +276,38 @@ body {
       }
     }
   }
+
+  .installButton {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+    font-weight: bold;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+    border-width: 2px;
+    padding: 0 22px;
+    height: 53px;
+    font-size: 18px;
+    line-height: 53px;
+    border-radius: 4px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid white;
+    white-space: nowrap;
+
+    &:hover {
+      background: transparent;
+      a {
+        color: white;
+      }
+    }
+  }
+
+
 
   .features {
     padding: 10vh 0 10vh 0;
@@ -323,10 +368,11 @@ body {
         display: flex;
         flex-direction: column;
 
-        p, li {
+        p,
+        li {
           font-size: 18px;
           line-height: 26px;
-          color: rgba(0, 0, 0, .5);;
+          color: rgba(0, 0, 0, 0.5);
         }
 
         .highlightedText {
@@ -417,8 +463,6 @@ body {
             }
           }
         }
-
-
       }
     }
   }
@@ -440,7 +484,6 @@ body {
     }
 
     .button {
-      width: 50%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -538,7 +581,7 @@ body {
       p {
         font-size: 18px;
         line-height: 26px;
-        color: rgba(0, 0, 0, .5);;
+        color: rgba(0, 0, 0, 0.5);
       }
 
       img {

@@ -8,10 +8,33 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import ReactCompareImage from 'react-compare-image';
 import inlineImage from "../../static/images/inlineImage.png";
 import popupImage from "../../static/images/popupImage.png";
+import { OutboundLink } from 'gatsby-plugin-gtag';
+import logo from "../../static/images/logo.svg";
+import { Link } from "gatsby";
 
 const IndexPage = () => (
     <Layout>
         <SEO title="Manage & Organise Your Tab" />
+        <header className={"main-header"}>
+            <div className={"container"}>
+                <div className={"top-menu"}>
+                    <div className={"logo"}>
+                        <Link to="/" title={"TST"}>
+                            <img alt={"Logo"} src={logo} />
+                        </Link>
+                    </div>
+
+
+                    <div className={"get-started"}>
+                        <OutboundLink
+                            href="https://chrome.google.com/webstore/detail/tree-style-tab-for-chrome/hbledhepdppepjnbnohiepcpcnphimdj"
+                        >
+                            Get Started
+                    </OutboundLink>
+                    </div>
+                </div>
+            </div>
+        </header>
 
         <div className={"page-header home"}>
             <div className={"container"}>
@@ -20,10 +43,24 @@ const IndexPage = () => (
                         <h1>Say goodbye to messy tabs</h1>
                         <p>Start browsing the internet the way you want and know where all your tabs are with ease. </p>
                         <div className={"add-to-chrome"}>
-                            <a href="https://chrome.google.com/webstore/detail/tree-style-tab-for-chrome/hbledhepdppepjnbnohiepcpcnphimdj" target={"_blank"} rel="noopener noreferrer">
+                            <OutboundLink
+                                href="https://chrome.google.com/webstore/detail/tree-style-tab-for-chrome/hbledhepdppepjnbnohiepcpcnphimdj"
+                            >
                                 <img src={chromeImage} alt="Add to Chrome" /> Download And Try for Free
-                            </a>
+
+                            </OutboundLink>
                         </div>
+                        <small
+                            className={"header-small-text"}
+                            style={{
+                            color: "#8f96a8",
+                            fontWight: "500",
+                            marginTop: "25px",
+                            fontSize: "12px"
+                            }}
+                        >
+                            for macOS + Windows
+                        </small>
 
                     </div>
                     <div className="col-7">
@@ -34,6 +71,10 @@ const IndexPage = () => (
                 </div>
             </div>
         </div>
+        <svg style={{ background: "black" }} fill="#FFFFFF" className="hidden-sm" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path d="M0 100 C40 0 60 0 100 100 Z"></path>
+        </svg>
+
 
         <div className={"page-preview hidden-sm"}>
             <h1>Display in any way you want</h1>
@@ -53,7 +94,7 @@ const IndexPage = () => (
                                     <h2 className={"featured_heading"}>
 
 
-                                    Inline Mode
+                                        Inline Mode
                                 </h2>
                                     <p>Hover to the side to open the application.
                                 </p>
@@ -101,7 +142,7 @@ const IndexPage = () => (
                                     <h2 className={"featured_heading"}>
 
 
-                                    Collapsable Tab
+                                        Collapsable Tab
                                 </h2>
                                     <p>Expand or collapse tabs to keep a plain view of what you're browsing in the moment.</p>
                                 </div>
@@ -141,19 +182,41 @@ const IndexPage = () => (
             </div>
         </div>
 
-
-        <div className={"call-to-action"}>
-            <div className={"container call-to-action_inner"}>
-                <div className={"call-to-action__content"}>
-                    <h2>Get Tree Style Tab</h2>
-                    <p>Don't hesitate, you deserve the best browsing experience!</p>
-                </div>
-
-                <div className={"button"}>
-                    <a href="https://chrome.google.com/webstore/detail/tree-style-tab-for-chrome/hbledhepdppepjnbnohiepcpcnphimdj" target={"_blank"} rel="noopener noreferrer">Download</a>
+        <div style={{
+            background: "black",
+            textAlign: "center",
+            padding: "100px 0"
+        }}>
+            <div className={"container"}>
+                <div className={"row"}>
+                    <div className={"col-12"}>
+                        <h2 style={{
+                            color: "white",
+                            marginBottom: "60px",
+                            fontSize: "2rem"
+                        }}>
+                            Ready to get the browsing experience you deserve?
+                        </h2>
+                        <div className={"installButton"}>
+                            <OutboundLink
+                                href="https://chrome.google.com/webstore/detail/tree-style-tab-for-chrome/hbledhepdppepjnbnohiepcpcnphimdj"
+                            >
+                                Install For Free
+                            </OutboundLink>
+                        </div>
+                        <small style={{
+                            display: "block",
+                            textAlign: "center",
+                            color: "#8f96a8",
+                            fontWight: "500",
+                            marginTop: "25px",
+                            fontSize: "12px"
+                        }}>
+                            for macOS + Windows
+                        </small>
+                    </div>
                 </div>
             </div>
-
         </div>
     </Layout>
 )

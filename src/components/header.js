@@ -1,24 +1,12 @@
-import {Link} from "gatsby"
+import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import logo from "../../static/images/logo.svg"
+import { OutboundLink } from 'gatsby-plugin-gtag';
 
-const Header = ({siteTitle}) => (
-    <header>
-        <div className={"container"}>
-            <div className={"top-menu"}>
-                <div className={"logo"}>
-                    <Link to="/" title={"TST"}>
-                        <img alt={"Logo"} src={logo}/>
-                    </Link>
-                </div>
 
-                <div className={"get-started"}>
-                    <a href="https://chrome.google.com/webstore/detail/tree-style-tab-for-chrome/hbledhepdppepjnbnohiepcpcnphimdj" target={"_blank"} rel="noopener noreferrer">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </header>
+const Header = ({ siteTitle }) => (
+    <div></div>
 )
 
 Header.propTypes = {
