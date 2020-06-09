@@ -5,6 +5,8 @@ $break-medium: 950px;
 body {
   font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial,
     Lucida Grande, sans-serif;
+  overflow-y: hidden;
+  overflow-y: scroll;
 
   p {
     font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial,
