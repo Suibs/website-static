@@ -190,7 +190,8 @@ body {
         display: none;
       }
 
-      .add-to-chrome, .header-small-text {
+      .add-to-chrome,
+      .header-small-text {
         a {
           padding: 10px 0;
           display: none;
@@ -207,6 +208,9 @@ body {
       h2 {
         padding-top: 0;
       }
+
+      padding: 50px 0 100px 0;
+
       .add-to-chrome {
         a {
           width: 100%;
@@ -305,8 +309,6 @@ body {
       }
     }
   }
-
-
 
   .features {
     padding: 10vh 0 10vh 0;
