@@ -50,17 +50,6 @@ const IndexPage = () => (
 
                             </OutboundLink>
                         </div>
-                        <small
-                            className={"header-small-text"}
-                            style={{
-                            color: "#8f96a8",
-                            fontWight: "500",
-                            marginTop: "25px",
-                            fontSize: "12px"
-                            }}
-                        >
-                            for macOS + Windows
-                        </small>
 
                     </div>
                     <div className="col-7">
@@ -204,16 +193,7 @@ const IndexPage = () => (
                                 Install For Free
                             </OutboundLink>
                         </div>
-                        <small style={{
-                            display: "block",
-                            textAlign: "center",
-                            color: "#8f96a8",
-                            fontWight: "500",
-                            marginTop: "25px",
-                            fontSize: "12px"
-                        }}>
-                            for macOS + Windows
-                        </small>
+
                     </div>
                 </div>
             </div>
