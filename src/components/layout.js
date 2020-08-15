@@ -41,7 +41,7 @@ const Layout = ({ children }) => (
                                     </div>
 
                                     <div className={"about"}>
-                                        <p>A google extension that utilises the concept of tree-like hireachy structure for tab management.</p>
+                                        <p>A google extension that utilises the concept of tree-like hierarchy structure for tab management.</p>
                                     </div>
                                 </div>
                             </div>
